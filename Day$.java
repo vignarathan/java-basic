@@ -4,14 +4,14 @@ class Day${
 	
 		int day;
 		Scanner abc=new Scanner(System.in);
-		System.out.print("Enter : ");
-		day=abc.nextInt;
+		System.out.print("Enter a number(1to7) : ");
+		day=abc.nextInt();
 		
-		if(day==1)
+		if(day==1){
 			System.out.println("Monday");
 		}else if(day==2){
 			System.out.println("Tuesday");
-		}else if(day==3({
+		}else if(day==3){
 			System.out.println("Wednesday");
 		}else if(day==4){
 			System.out.println("Thursday");
