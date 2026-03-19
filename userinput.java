@@ -1,7 +1,7 @@
  import java.util.Scanner;
  class UserInput{
       public static void main(String args[]){
-			
+		String name;	
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Enter Your Name : ");
 		name=scan.next();
@@ -9,7 +9,6 @@
 	System.out.println("*************************************");
 
         int num=0;//0 is the default value
-        Scanner scan=new Scanner(System.in);
         System.out.print("Enter your Number : ");
         num=scan.nextInt();
 		System.out.println("Your Number is : "+num);
