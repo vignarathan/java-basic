@@ -3,7 +3,7 @@ class Student{
 	String name;
 	
 	void setstudent(){
-		id=0003;
+		id=25044;
 		name="Vignarathan";
 	}
 	void getstudent(){
